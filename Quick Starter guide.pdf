@@ -1,0 +1,32 @@
+python main.py help - overview of possible commands
+
+python main.py today - check date
+
+python main.py buy - enter the buy prompts
+
+python main.py inventory  - check inventory
+
+python main.py sell  - enter the sell prompts
+
+python main.py purchases - view purchases
+
+python main.py sales - view sales
+
+python main.py totalcost - view total money spend on bought items
+
+python main.py totalrevenue - view total money incoming/ revenues
+
+python main.py totalprofit - view the profit or losses
+
+python main.py datecost <start_date> [<end_date>] - view cost for specific date
+
+python main.py daterevenue <start_date> [<end_date>] - view revenue for specific date
+
+python main.py dateprofit <start_date> [<end_date>] - view profit for specific date
+
+-----
+When viewing  python main.py purchases - the outcome will be written to the purchases.json and purchases.csv
+
+When viewing  python main.py sales - the outcome will be written to the sales.json, also all the sales can be seen at sold.csv
+
+When viewing  python main.py inventory - the outcome will be written to the inventory.json and inventory.csv

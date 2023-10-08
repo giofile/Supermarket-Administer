@@ -1,0 +1,107 @@
+
+**SuperPy Supermarket Inventory System Manual**
+
+Introduction
+
+"SuperPy is a powerful command-line tool that efficiently manages supermarket inventory, providing comprehensive functionalities for effortless tracking of products, sales, expenses, and profits."
+
+
+**1. Buy Items:**
+
+```
+python main.py buy
+```
+
+Use this command to register a purchase of a product. SuperPy prompts you to enter details like product name, quantity, price, and expiration date. This action updates your inventory with the new items.
+
+
+
+**2. Sell Items:**
+
+```
+python main.py sell
+```
+
+This command allows you to register a sale of a product. You provide details such as product name and quantity sold. SuperPy deducts the sold items from your inventory and logs the sale.
+
+**3. View Inventory:**
+
+```
+python main.py inventory
+```
+
+View your current inventory, including products, quantities, purchase prices, and expiration dates. This command provides a real-time snapshot of your supermarket's stock.
+
+**4. View Sales History:**
+
+```
+python main.py sales
+```
+
+Access your sales history, displaying products sold, quantities, sell prices, and sale dates. This function helps you analyze popular products and sales trends.
+
+**5. View Purchase History:**
+
+```
+python main.py purchases
+```
+
+Check your purchase history, showing products bought, quantities, purchase prices, and purchase dates. This feature aids in tracking supplier interactions and restocking patterns.
+
+**6. Calculate Total Cost:**
+
+```
+python main.py totalcost
+```
+
+Determine the total cost of all items bought. This command provides an overview of your expenses related to restocking products.
+
+**7. Calculate Total Revenue:**
+
+```
+python main.py totalrevenue
+```
+
+Calculate the total revenue from sales. Gain insights into your earnings by tracking overall sales performance.
+
+**Page 2: Command Descriptions (Continued)**
+
+**8. Calculate Total Profit:**
+
+```
+python main.py totalprofit
+```
+
+Compute the total profit, which is the difference between total revenue and total cost. Understand your overall profit margin to make informed business decisions.
+
+**9. Calculate Date-specific Cost:**
+
+```
+python main.py datecost <start_date> [<end_date>]
+```
+
+Calculate the total cost for a specific date or date range. Analyze your expenses within a specified timeframe to identify patterns or irregularities.
+
+**10. Calculate Date-specific Revenue:**
+
+```
+python main.py daterevenue <start_date> [<end_date>]
+```
+
+Display revenue between specific dates. This command provides insights into sales performance within a specific timeframe.
+
+**11. Calculate Date-specific Profit:**
+
+```
+python main.py dateprofit <start_date> [<end_date>]
+```
+
+Calculate the total profit for a specific date or date range. Evaluate your profit within a specified timeframe to understand your financial growth.
+
+---
+
+When viewing  python main.py purchases - the outcome will be written to the purchases.json and purchases.csv
+
+When viewing  python main.py sales - the outcome will be written to the sales.json, also all the sales can be seen at sold.csv
+
+When viewing  python main.py inventory - the outcome will be written to the inventory.json and inventory.csv
